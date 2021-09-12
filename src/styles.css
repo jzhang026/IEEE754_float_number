@@ -1,0 +1,69 @@
+.App {
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.sign {
+  flex-basis: 10%;
+}
+
+.exponent {
+  flex-basis: 40%;
+}
+
+.mantissa {
+  flex-basis: 50%;
+}
+
+.box {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  border: 1px solid #666666;
+  text-align: center;
+}
+.hidden {
+  border: 2px solid #0000ff;
+}
+
+.taken {
+  background: #22ff22;
+}
+.tip {
+  color: #666666;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.entername {
+  font-size: 1.3em;
+  margin: 2em 0;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+.entername > input {
+  border-radius: 0.3em;
+  border: 1px solid #0000ff;
+  display: block;
+  padding: 0.6em 0.3em;
+  font-size: 1em;
+}
+
+.result-title {
+  font-weight: 600;
+  font-size: 1.05em;
+}
+
+.result-string {
+  color: lightseagreen;
+  font-style: italic;
+  font-weight: 600;
+}
